@@ -54,21 +54,23 @@ immediately ends with all competitors destroyed
 
 **Assumptions:**
 
-In case of a battle between Optimus Prime and Predaking, the third line of the output, instead of displaying the surviving members of the losing team, displays 'No one survived'.
+- In case of a battle between Optimus Prime and Predaking, the third line of the output, instead of displaying the surviving members of the losing team, displays `'No one survived'`.
 
-In case of equal number of participants in the two teams, the third line of the output, instead of displaying the surviving members of the losing team, displays 'No losing team'.
+- In case of equal number of participants in the two teams, the third line of the output, instead of displaying the surviving members of the losing team, displays `'No losing team'`.
 
-In case no one of the losing team survived, displays:
-  Survivors from the losing team (<Losing Team>): No one
+- In case no one of the losing team survived, displays:
+  `Survivors from the losing team (<Losing Team>): No one`
 
-In case of a draw:
-  - The second line of the output, instead of displaying the winning team, displays 'Draw'
-  - The third line of the output, instead of displaying the surviving members of the **losing team**, displays the surviving members.
+- In case of a draw:
+  - The second line of the output, instead of displaying the winning team, displays `'Draw'`
+  - The third line of the output, instead of displaying the surviving members of the **losing team**, displays `No losing team`.
 
-Based on the following rule 'The team who eliminated the largest number of the opposing team is the winner'
-  - If after all battles the the number of eliminated for both teams are equal, then the war ends in a draw even if there is a team with more members. For instance: if it's a team of 2 vs. a team of 1 and the first and only battle ends in a draw, then, the war ends in a draw.
+- Based on the following rule **'The team who eliminated the largest number of the opposing team is the winner'**
+  - If after all battles the the number of eliminated for both teams are equal, then the war ends in a **draw** even if there is a team with more members. 
+  
+  For instance: if it's a team of 2 vs. a team of 1 and the first and only battle ends in a draw, then, the war ends in a draw.
 
-Both the winning team and the remaining of the losing team are displayed in order of their rank, not necessarily in the order they were inserted.
+- Both the winning team and the remaining of the losing team are displayed in order of their rank, not necessarily in the order they were inserted.
 
 ## Instructions to Install
 
@@ -105,6 +107,11 @@ Expected **output**:
 1 battle
 Winning team (Decepticons): Soundwave
 Survivors from the losing team (Autobots): Hubcap
+```
+
+There are three input files inside `test/` folder. Example of using existing test inputs:
+```
+node dist < test/input.txt
 ```
 
 ## Instructions to Test
