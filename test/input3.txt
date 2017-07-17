@@ -1,0 +1,4 @@
+Soundwave, D, 8,9,2,6,7,5,6,10
+Predaking, D, 4,4,4,4,8,4,4,4
+Bluestreak, A, 6,6,7,9,5,2,9,7
+Optimus Prime: A, 4,4,4,4,6,4,4,4
